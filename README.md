@@ -5,7 +5,7 @@
 
 ## Features
 
-This module...
+This module creates user data and cloud init scripts for Harmony blockchain. All clouds are supported. 
 
 ## Terraform Versions
 
@@ -13,12 +13,19 @@ For Terraform v0.12.0+
 
 ## Usage
 
-```
+```hcl-terraform
 module "this" {
-    source = "github.com/insight-infrastructure/terraform-harmony-user-data"
-
+  source = "github.com/insight-infrastructure/terraform-harmony-user-data"
+  cloud_provider = "aws"
 }
 ```
+
+Supports:
+- AWS 
+- Azure
+- GCP 
+- DigitalOcean 
+
 ## Examples
 
 - [defaults](https://github.com/insight-infrastructure/terraform-harmony-user-data/tree/master/examples/defaults)
