@@ -65,7 +65,9 @@ No issue is creating limit on this module.
 
 ## Outputs
 
-No output.
+| Name | Description |
+|------|-------------|
+| user\_data | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
