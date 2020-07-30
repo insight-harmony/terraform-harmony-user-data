@@ -53,7 +53,7 @@ No issue is creating limit on this module.
 | log\_config\_bucket | n/a | `string` | `""` | no |
 | log\_config\_key | n/a | `string` | `""` | no |
 | mount\_volumes | Boolean to mount volume | `bool` | `true` | no |
-| node\_tags | The tag to put into the node exporter for consul to pick up the tag of the instance and associate the proper metrics | `string` | `"prep"` | no |
+| node\_tags | The tag to put into the node exporter for consul to pick up the tag of the instance and associate the proper metrics | `string` | `"harmony"` | no |
 | prometheus\_enabled | Download and start node exporter | `bool` | `false` | no |
 | prometheus\_password | Password to pass through for node exporter | `string` | `""` | no |
 | prometheus\_user | Username to pass through for node exporter | `string` | `""` | no |

@@ -19,7 +19,7 @@ variable "consul_enabled" {
 variable "node_tags" {
   description = "The tag to put into the node exporter for consul to pick up the tag of the instance and associate the proper metrics"
   type        = string
-  default     = "prep"
+  default     = "harmony"
 }
 
 variable "prometheus_enabled" {
